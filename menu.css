@@ -150,9 +150,15 @@
     cursor: pointer;
     margin-right: 3px;
 }
-.add-btn-active:hover { background: rgb(0, 49, 0); color: lightgreen}
-.rmv-btn:hover { background: rgb(131, 0, 0); color: rgb(255, 92, 81)}
-.add-btn:hover { background: var(--color-primary); color: green; }
+
+.add-btn-active:hover { background: rgb(0, 49, 0); color: lightgreen
+}
+
+.rmv-btn:hover { background: rgb(131, 0, 0); color: rgb(255, 92, 81)
+}
+
+.add-btn:hover { background: var(--color-primary); color: green; 
+}
 
 /*buat cart*/
 .cart-bar {
