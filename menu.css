@@ -83,9 +83,8 @@
 }
 
 .like-text {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
-    font-weight: 500;
+    font-size: 0.85rem; /* 13.6px */
+    color: #888;
 }
 
 /* gambar gambar, button */
@@ -99,9 +98,24 @@
 
 .menu-item-image img { width: 100%; height: 100%; object-fit: cover; }
 
+.item-name {
+    font-size: 1.25rem; /* 20px */
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.item-description {
+    font-size: 1rem; /* 16px */
+    color: #555;
+}
+
 .item-info { flex: 1; }
 
-.item-price { color: var(--color-primary); font-weight: 700; }
+.item-price { 
+    font-size: 1.1rem; /* 17.6px */
+    font-weight: bold;
+    color: #a0522d; /* Warna cokelat */ 
+}
 
 .add-btn {
     width: 44px;
@@ -134,9 +148,10 @@
     border-radius: var(--radius-md);
     font-weight: bold;
     cursor: pointer;
+    margin-right: 3px;
 }
-
-.rmv-btn:hover { background: var(--color-primary); color: red; }
+.add-btn-active:hover { background: rgb(0, 49, 0); color: lightgreen}
+.rmv-btn:hover { background: rgb(131, 0, 0); color: rgb(255, 92, 81)}
 .add-btn:hover { background: var(--color-primary); color: green; }
 
 /*buat cart*/
